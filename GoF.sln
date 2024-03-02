@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetanitOOP", "MetanitOOP", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inherite", "Inherite\Inherite.csproj", "{E19F7F13-6AFF-4DE5-AD5D-BAAA2165732B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassBuilder", "ClassBuilder\ClassBuilder.csproj", "{B87A3CDE-3A39-42F6-A5EB-D1CC91211F0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassBuilder", "ClassBuilder\ClassBuilder.csproj", "{B87A3CDE-3A39-42F6-A5EB-D1CC91211F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpCasting", "UpCasting\UpCasting.csproj", "{0D282D5C-632F-4E87-A038-0E95DDD2376F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{B87A3CDE-3A39-42F6-A5EB-D1CC91211F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B87A3CDE-3A39-42F6-A5EB-D1CC91211F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B87A3CDE-3A39-42F6-A5EB-D1CC91211F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D282D5C-632F-4E87-A038-0E95DDD2376F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D282D5C-632F-4E87-A038-0E95DDD2376F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D282D5C-632F-4E87-A038-0E95DDD2376F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D282D5C-632F-4E87-A038-0E95DDD2376F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{9A0C3DBF-BF13-4613-A247-D29737EA5669} = {E505BBF7-5D68-4B37-82BA-E65C507B1C4A}
 		{E19F7F13-6AFF-4DE5-AD5D-BAAA2165732B} = {A27F5A81-B0AA-4B9B-92BB-5B864DD23D39}
 		{B87A3CDE-3A39-42F6-A5EB-D1CC91211F0F} = {E505BBF7-5D68-4B37-82BA-E65C507B1C4A}
+		{0D282D5C-632F-4E87-A038-0E95DDD2376F} = {A27F5A81-B0AA-4B9B-92BB-5B864DD23D39}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8AD0C2-466D-489E-B824-448C30888D9D}

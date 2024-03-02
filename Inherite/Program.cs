@@ -6,12 +6,18 @@ namespace Inherite
     // super base class
     class Person
     {
-        private string _name;
+        private string _name=default!;
         public string Name { get { return _name; }set { _name = value;} }
 
         public void Print() => Console.WriteLine(_name);
+        public Person(string name)
+        {
+            _name = name;
+        }
+        public Person()
+        {
 
-
+        }
         public override string ToString()
         {
             return this._name;
@@ -21,7 +27,18 @@ namespace Inherite
     // 799-607=192
     class Employee:Person
     {
-        public void Print()
+        public int Id { get; set; }
+        public Employee()
+        {
+            
+        }
+        public Employee(string name,int id):base(name) 
+        {
+            Name = name;
+            Id = id;
+        }
+
+        public new void Print()
         {
             Console.WriteLine(this.Name);
         }
@@ -34,7 +51,7 @@ namespace Inherite
             //объект класса Employee также является объектом класса Person:
             Person person = new Person { Name = "Tom" };
             person.Print();   // Tom
-            person = new Employee { Name = "Sam" };
+            person = new Employee { Name = "Sam" ,Id=1};
             person.Print();   // Sam
         }
     }
