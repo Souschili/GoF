@@ -8,6 +8,9 @@
 
         public int Money;
 
+
+        // not SOLID ? if we add new field and add new builder
+        // we need change PersonMoney to las builder class
         public class Builder:PersonMoneyBuilder<Builder>
         {
             internal Builder() { }
@@ -60,6 +63,7 @@
     {
         static void Main(string[] args)
         {
+            // recursive generics fluent builder
             var me = Person.New
                 .AddName("sauron")
                 .Position("King")
