@@ -6,7 +6,14 @@
 
         public string Position;
 
-        public static PersonInfoBuilder New => new PersonInfoBuilder();
+        public int Money;
+
+        public class Builder:PersonMoneyBuilder<Builder>
+        {
+            internal Builder() { }
+        }
+
+        public static Builder New=> new Builder();
     }
 
     public abstract class PersonBuilder
@@ -19,22 +26,45 @@
         }
     }
 
-    public class PersonInfoBuilder : PersonBuilder
+    public class PersonInfoBuilder<SELF> : PersonBuilder
+        where SELF : PersonInfoBuilder<SELF>
     {
-        public PersonBuilder AddName(string name)
+        public SELF AddName(string name)
         {
             this.person.Name = name;
-            return this;
+            return (SELF)this;
         }
     }
 
-   // public class PersonJobBuilder:
+    public class PersonJobBuilder<SELF>: PersonInfoBuilder<SELF>
+        where SELF:PersonJobBuilder<SELF>
+    {
+        public SELF Position(string position)
+        {
+            this.person.Position = position;
+            return (SELF)this;
+        }
+    }
+
+    public class PersonMoneyBuilder<SELF>:PersonJobBuilder<SELF>
+        where SELF:PersonMoneyBuilder<SELF>
+    {
+        public SELF Money(int money)
+        {
+            this.person.Money = money;
+            return (SELF)this;
+        }
+    }
 
     internal class Program
     {
         static void Main(string[] args)
         {
-            var me=Person.New.AddName("Aida");
+            var me = Person.New
+                .AddName("sauron")
+                .Position("King")
+                .Money(500)
+                .Build();
         }
     }
 }
