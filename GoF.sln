@@ -15,15 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassBuilder", "ClassBuilde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpCasting", "UpCasting\UpCasting.csproj", "{0D282D5C-632F-4E87-A038-0E95DDD2376F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultifacetedBuilder", "MultifacetedBuilder\MultifacetedBuilder.csproj", "{13D1C512-5935-47C3-BE4D-F8CC8AABC3BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultifacetedBuilder", "MultifacetedBuilder\MultifacetedBuilder.csproj", "{13D1C512-5935-47C3-BE4D-F8CC8AABC3BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheriteBuilderWithGeneric", "InheriteBuilderWithGeneric\InheriteBuilderWithGeneric.csproj", "{8E6C7017-C9CC-4751-8989-E9D5C9F45DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheriteBuilderWithGeneric", "InheriteBuilderWithGeneric\InheriteBuilderWithGeneric.csproj", "{8E6C7017-C9CC-4751-8989-E9D5C9F45DDB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Custom", "Custom", "{79AA7DDF-7B2A-4BC3-BFA1-D5EE50DA62DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookBuilderFluent", "BookBuilderFluent\BookBuilderFluent.csproj", "{C5E84C80-2B65-47CA-9710-F69EDA1CFC03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookBuilderFluent", "BookBuilderFluent\BookBuilderFluent.csproj", "{C5E84C80-2B65-47CA-9710-F69EDA1CFC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleBuilders", "MultipleBuilders\MultipleBuilders.csproj", "{C4725CE6-B7B7-47B6-A44B-D234686FBEFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleBuilders", "MultipleBuilders\MultipleBuilders.csproj", "{C4725CE6-B7B7-47B6-A44B-D234686FBEFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{ACC73F74-0446-4A11-AAA6-0B8EFA5ADFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{CE3EBD8D-51EB-4AC3-98F9-C8FAE7976250}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,10 @@ Global
 		{C4725CE6-B7B7-47B6-A44B-D234686FBEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4725CE6-B7B7-47B6-A44B-D234686FBEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4725CE6-B7B7-47B6-A44B-D234686FBEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3EBD8D-51EB-4AC3-98F9-C8FAE7976250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3EBD8D-51EB-4AC3-98F9-C8FAE7976250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3EBD8D-51EB-4AC3-98F9-C8FAE7976250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3EBD8D-51EB-4AC3-98F9-C8FAE7976250}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,7 @@ Global
 		{8E6C7017-C9CC-4751-8989-E9D5C9F45DDB} = {E505BBF7-5D68-4B37-82BA-E65C507B1C4A}
 		{C5E84C80-2B65-47CA-9710-F69EDA1CFC03} = {79AA7DDF-7B2A-4BC3-BFA1-D5EE50DA62DD}
 		{C4725CE6-B7B7-47B6-A44B-D234686FBEFB} = {79AA7DDF-7B2A-4BC3-BFA1-D5EE50DA62DD}
+		{CE3EBD8D-51EB-4AC3-98F9-C8FAE7976250} = {ACC73F74-0446-4A11-AAA6-0B8EFA5ADFB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8AD0C2-466D-489E-B824-448C30888D9D}
