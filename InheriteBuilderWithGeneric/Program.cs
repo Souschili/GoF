@@ -10,7 +10,7 @@
 
 
         // not SOLID ? if we add new field and add new builder
-        // we need change PersonMoney to las builder class
+        // we need change PersonMoney to last builder class
         public class Builder:PersonMoneyBuilder<Builder>
         {
             internal Builder() { }
