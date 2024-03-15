@@ -11,9 +11,10 @@ namespace AsyncFactory
 
     class Foo2 : IAsyncInit<Foo2>
     {
-        public Task<Foo2> InitAsync()
+        public async Task<Foo2> InitAsync()
         {
-            throw new NotImplementedException();
+            await Task.Delay(1000);
+            return new Foo2();
         }
     }
 
