@@ -29,15 +29,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{ACC7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{CE3EBD8D-51EB-4AC3-98F9-C8FAE7976250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicBuilder", "ClassicBuilder\ClassicBuilder.csproj", "{C8700187-9B86-4342-AEF5-F2522D2FDF38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicBuilder", "ClassicBuilder\ClassicBuilder.csproj", "{C8700187-9B86-4342-AEF5-F2522D2FDF38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicFactory", "ClassicFactory\ClassicFactory.csproj", "{507F96BB-94A1-4BAC-9F21-C6D961E89C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicFactory", "ClassicFactory\ClassicFactory.csproj", "{507F96BB-94A1-4BAC-9F21-C6D961E89C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFactory", "AsyncFactory\AsyncFactory.csproj", "{616FC6BF-AF5C-40A6-BA54-65346FDE57D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncFactory", "AsyncFactory\AsyncFactory.csproj", "{616FC6BF-AF5C-40A6-BA54-65346FDE57D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{EC9656DC-C68A-44B2-BA32-4152EF948993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{EC9656DC-C68A-44B2-BA32-4152EF948993}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTaskPersonFactory", "HomeTaskPersonFactory\HomeTaskPersonFactory.csproj", "{A94A30C7-B1E7-40FB-9227-049231EF8F8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeTaskPersonFactory", "HomeTaskPersonFactory\HomeTaskPersonFactory.csproj", "{A94A30C7-B1E7-40FB-9227-049231EF8F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{B9752212-E5CE-4204-A54A-77F375D64EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloneabel", "Cloneabel\Cloneabel.csproj", "{65B52662-4EFD-4498-879A-C18597C7FCBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,10 @@ Global
 		{A94A30C7-B1E7-40FB-9227-049231EF8F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94A30C7-B1E7-40FB-9227-049231EF8F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94A30C7-B1E7-40FB-9227-049231EF8F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B52662-4EFD-4498-879A-C18597C7FCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B52662-4EFD-4498-879A-C18597C7FCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B52662-4EFD-4498-879A-C18597C7FCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B52662-4EFD-4498-879A-C18597C7FCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +128,7 @@ Global
 		{616FC6BF-AF5C-40A6-BA54-65346FDE57D2} = {ACC73F74-0446-4A11-AAA6-0B8EFA5ADFB7}
 		{EC9656DC-C68A-44B2-BA32-4152EF948993} = {ACC73F74-0446-4A11-AAA6-0B8EFA5ADFB7}
 		{A94A30C7-B1E7-40FB-9227-049231EF8F8E} = {ACC73F74-0446-4A11-AAA6-0B8EFA5ADFB7}
+		{65B52662-4EFD-4498-879A-C18597C7FCBE} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8AD0C2-466D-489E-B824-448C30888D9D}
