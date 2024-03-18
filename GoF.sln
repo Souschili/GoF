@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloneabel", "Cloneabel\Cloneabel.csproj", "{65B52662-4EFD-4498-879A-C18597C7FCBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyConstructor", "CopyConstructor\CopyConstructor.csproj", "{E8224003-EE44-49F3-9741-C82D7C23B2CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{65B52662-4EFD-4498-879A-C18597C7FCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B52662-4EFD-4498-879A-C18597C7FCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B52662-4EFD-4498-879A-C18597C7FCBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8224003-EE44-49F3-9741-C82D7C23B2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8224003-EE44-49F3-9741-C82D7C23B2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8224003-EE44-49F3-9741-C82D7C23B2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8224003-EE44-49F3-9741-C82D7C23B2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +135,7 @@ Global
 		{EC9656DC-C68A-44B2-BA32-4152EF948993} = {ACC73F74-0446-4A11-AAA6-0B8EFA5ADFB7}
 		{A94A30C7-B1E7-40FB-9227-049231EF8F8E} = {ACC73F74-0446-4A11-AAA6-0B8EFA5ADFB7}
 		{65B52662-4EFD-4498-879A-C18597C7FCBE} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
+		{E8224003-EE44-49F3-9741-C82D7C23B2CB} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8AD0C2-466D-489E-B824-448C30888D9D}

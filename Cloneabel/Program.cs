@@ -44,16 +44,16 @@
             // return MemberwiseClone();
 
             // create object by our self
-            string[] copyName =new string[Names.Length];
-            Array.Copy(Names, copyName,Names.Length);
+            string[] copyName = new string[Names.Length];
+            Array.Copy(Names, copyName, Names.Length);
             return new Person(copyName, (Address)Address.Clone());
         }
 
         public override string ToString()
         {
-            return $"{nameof(Names)}: {String.Join(' ',Names)}\t {nameof(Address)}: {Address} ";
+            return $"{nameof(Names)}: {String.Join(' ', Names)}\t {nameof(Address)}: {Address} ";
         }
-
+    }
         internal class Program
         {
             static void Main(string[] args)
@@ -71,5 +71,5 @@
                 Console.WriteLine(jane);
             }
         }
-    }
+    
 }
