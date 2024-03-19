@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationCopy", "Serial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryOfAbstraction", "FactoryOfAbstraction\FactoryOfAbstraction.csproj", "{8F9913C0-929F-476B-B242-049B0B493482}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTask", "HomeTask\HomeTask.csproj", "{EDE56CEB-BEB9-4DDA-A7DD-DA341E8A0EAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{8F9913C0-929F-476B-B242-049B0B493482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F9913C0-929F-476B-B242-049B0B493482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F9913C0-929F-476B-B242-049B0B493482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE56CEB-BEB9-4DDA-A7DD-DA341E8A0EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE56CEB-BEB9-4DDA-A7DD-DA341E8A0EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE56CEB-BEB9-4DDA-A7DD-DA341E8A0EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE56CEB-BEB9-4DDA-A7DD-DA341E8A0EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{E8224003-EE44-49F3-9741-C82D7C23B2CB} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
 		{66DF7483-F648-4001-AA1D-2911D754F3B5} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
 		{8F9913C0-929F-476B-B242-049B0B493482} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
+		{EDE56CEB-BEB9-4DDA-A7DD-DA341E8A0EAB} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8AD0C2-466D-489E-B824-448C30888D9D}
