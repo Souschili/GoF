@@ -3,7 +3,7 @@
     public class Point
     {
         public int X, Y;
-
+        // add this
         public Point(int x, int y)
         {
             X = x;
@@ -23,6 +23,7 @@
 
         public Line DeepCopy()
         {
+            // copy all in less lines of code or we can use serializer
             var over = new Line();
             over.Start = new Point(this.Start.X,this.Start.Y);
             over.End = new Point(this.End.X,this.End.Y);
