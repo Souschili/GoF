@@ -12,6 +12,7 @@ namespace GoFTest.Singletone
             var db1=SingletoneDatabase.Instance;
 
             Assert.That(db.Count, Is.EqualTo(1));
+            Assert.That(db,Is.EqualTo(db1));
             Assert.That(db.Count, Is.EqualTo(db1.Count));
         }
     }
