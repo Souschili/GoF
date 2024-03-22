@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeTask", "HomeTask\HomeTa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singletone", "Singletone", "{3A4AD8D6-8678-4522-86C3-A19B109859AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singletone", "Singletone\Singletone.csproj", "{ADCBE0AD-CABD-44AE-B04D-4F0A0144080A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singletone", "Singletone\Singletone.csproj", "{ADCBE0AD-CABD-44AE-B04D-4F0A0144080A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletoneTest", "SingletoneTest\SingletoneTest.csproj", "{170C3322-51D5-45C1-9CBE-DE851A393CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{ADCBE0AD-CABD-44AE-B04D-4F0A0144080A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADCBE0AD-CABD-44AE-B04D-4F0A0144080A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADCBE0AD-CABD-44AE-B04D-4F0A0144080A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170C3322-51D5-45C1-9CBE-DE851A393CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170C3322-51D5-45C1-9CBE-DE851A393CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170C3322-51D5-45C1-9CBE-DE851A393CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170C3322-51D5-45C1-9CBE-DE851A393CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,6 +172,7 @@ Global
 		{8F9913C0-929F-476B-B242-049B0B493482} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
 		{EDE56CEB-BEB9-4DDA-A7DD-DA341E8A0EAB} = {B9752212-E5CE-4204-A54A-77F375D64EAE}
 		{ADCBE0AD-CABD-44AE-B04D-4F0A0144080A} = {3A4AD8D6-8678-4522-86C3-A19B109859AF}
+		{170C3322-51D5-45C1-9CBE-DE851A393CCD} = {3A4AD8D6-8678-4522-86C3-A19B109859AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8AD0C2-466D-489E-B824-448C30888D9D}

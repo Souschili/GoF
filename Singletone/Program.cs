@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 
 namespace DotNetDesignPatternDemos.Creational.Singleton
 {
@@ -53,5 +54,7 @@ namespace DotNetDesignPatternDemos.Creational.Singleton
             Console.WriteLine($"{city} has population {db.GetPopulation(city)}");
         }
     }
+
+    
 
 }
