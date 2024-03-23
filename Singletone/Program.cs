@@ -44,7 +44,7 @@ namespace DotNetDesignPatternDemos.Creational.Singleton
 
         // для проверки сколько инстансов созданно
         private static int _instanceCount = 0;
-        public int Count => _instanceCount;
+        public static int Count => _instanceCount;
 
         // загружаем фейковые данные из генератора фейков (каламбур)
         public SingletoneDatabase()
@@ -100,13 +100,11 @@ namespace DotNetDesignPatternDemos.Creational.Singleton
     {
         static void Main()
         {
-            var tem= new Dictionary<string, int>
-            {
-                ["alfa"] = 1,
-                ["beta"] = 2,
-                ["gamma"] = 3
-            }["gamma"];
+            var t=SingletoneDatabase.Instance;
+            var db = SingletoneDatabase.Count;
+            var db1 = SingletoneDatabase.Count;
             //var db = SingletoneDatabase.Instance;
+
             //var city = "Baku";
             //Console.WriteLine($"{city} has population {db.GetPopulation(city)}");
         }
