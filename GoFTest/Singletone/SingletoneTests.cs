@@ -15,5 +15,15 @@ namespace GoFTest.Singletone
             Assert.That(db,Is.EqualTo(db1));
             Assert.That(db.Count, Is.EqualTo(db1.Count));
         }
+
+        [Test]
+        public void DependedTotalPopulationTest()
+        {
+            var db = new FakeData();
+            var rf=new ConfigureRecordFinder(db);
+            Assert.That(
+                rf.GetTotalPopulation(new [] {"gamma","alfa"}),
+                Is.EqualTo(4));
+        }
     }
 }
