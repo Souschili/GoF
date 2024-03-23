@@ -100,9 +100,7 @@ namespace DotNetDesignPatternDemos.Creational.Singleton
     {
         static void Main()
         {
-            var t=SingletoneDatabase.Instance;
-            var db = SingletoneDatabase.Count;
-            var db1 = SingletoneDatabase.Count;
+       
             //var db = SingletoneDatabase.Instance;
 
             //var city = "Baku";
