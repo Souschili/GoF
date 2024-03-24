@@ -31,11 +31,14 @@
     {
         static void Main(string[] args)
         {
+            
             var t1=new MainConfigState();
             t1.Name = "temp1";
             t1.isActive = true;
             var t2=new MainConfigState();
             Console.WriteLine($"{t2.Name} {t2.isActive}");
+            Console.WriteLine(ReferenceEquals(t1,t1));
+            Console.WriteLine( t1.Equals(t2));
         }
     }
 }
